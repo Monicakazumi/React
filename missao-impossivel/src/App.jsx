@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from './components/Header'
 import { Card } from './components/Card'
 import Modal, { ModalBody, ModalHeader } from './components/Modal'
+import { Footer } from './components/Footer'
 
 import banner from './imagens/banner.jpg'
 import card1 from './imagens/card1.jpg'
@@ -46,7 +47,8 @@ function App() {
             <img width="100%" src={banner} />
             <h1
                 style={{
-                    margin: 15
+                    margin: 15,
+                    textAlign: 'center',
                 }}
             >Filmes</h1>
             <div
@@ -115,6 +117,7 @@ function App() {
                     </div>
                 </ModalBody>
             </Modal>
+            <Footer/>
         </>
     );
 }
