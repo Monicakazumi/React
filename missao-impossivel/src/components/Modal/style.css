@@ -34,3 +34,7 @@
 .modal_close:hover {
     color: red;
 }
+
+.modal_body {
+    padding: 16px 20px;
+}
